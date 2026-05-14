@@ -1,3 +1,8 @@
+import BenefitsSection from './components/BenefitsSection'
+import './App.css'
+
+
+      
 import Formulario from './components/Formulario';
 import Footer from './components/Footer';
 
@@ -43,7 +48,7 @@ function App() {
           <p>&copy; 2026 Soluciones IA. Todos los derechos reservados.</p>
         </div>
       </footer>
-
+      <BenefitsSection />
       <Formulario />
       <Footer />
     </div>
