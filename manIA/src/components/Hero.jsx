@@ -1,4 +1,5 @@
 import React from 'react';
+import manIA from '../assets/manIA.png';
 
 const Hero = () => {
   return (
@@ -21,7 +22,7 @@ const Hero = () => {
 
         <figure className="imagen-hero">
           <img 
-            src="https://via.placeholder.com/500" 
+            src={manIA} 
             alt="Ilustración representativa de inteligencia artificial" 
           />
         </figure>

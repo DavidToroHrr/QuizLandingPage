@@ -27,17 +27,13 @@ function App() {
         {/* Sección de Beneficios (Aquí entrará el Estudiante 2) */}
         <section id="servicios" className="seccion-beneficios">
           {/* <Beneficios /> */}
-          <h2 style={{textAlign: 'center', padding: '50px 0'}}>
-            Sección de Beneficios (Pendiente Estudiante 2)
-          </h2>
+         
         </section>
 
         {/* Sección de Formulario (Aquí entrará el Estudiante 3) */}
         <section id="contacto" className="seccion-contacto">
           {/* <Formulario /> */}
-          <h2 style={{textAlign: 'center', padding: '50px 0'}}>
-            Sección de Contacto (Pendiente Estudiante 3)
-          </h2>
+          
         </section>
 
       </main>
