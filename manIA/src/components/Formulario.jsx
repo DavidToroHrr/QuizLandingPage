@@ -2,7 +2,7 @@ import React from 'react';
 
 const Formulario = () => {
   return (
-    <section className="register-section" aria-labelledby="form-title">
+    <section id="contacto" className="register-section" aria-labelledby="form-title">
       <h2 id="form-title" className="register-section__title">Regístrate para probar la IA</h2>
 
       <form className="form" onSubmit={(e) => e.preventDefault()} noValidate>

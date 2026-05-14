@@ -1,16 +1,10 @@
-import BenefitsSection from './components/BenefitsSection'
-import './App.css'
-
-
-      
-import Formulario from './components/Formulario';
-import Footer from './components/Footer';
-
-
-      
 import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import BenefitsSection from './components/BenefitsSection';
+import Formulario from './components/Formulario';
+import Footer from './components/Footer';
+import './App.css';
 
 function App() {
   return (
@@ -18,34 +12,27 @@ function App() {
       {/* Componente de Navegación (Estudiante 1) */}
       <Header />
 
-      {/* Contenedor Semántico Principal (Estudiante 1) */}
+      {/* Contenedor Semántico Principal (Estudiante 1) - Todo el contenido va aquí dentro */}
       <main className="contenido-principal">
         
-        {/* Componente Hero (Estudiante 1) */}
+        {/* Tu Hero Section */}
         <Hero />
 
-        {/* Sección de Beneficios (Aquí entrará el Estudiante 2) */}
+        {/* Sección de Beneficios (Estudiante 2) */}
+        {/* El ID "servicios" debe estar en el contenedor para que el link del Header llegue aquí */}
         <section id="servicios" className="seccion-beneficios">
-          {/* <Beneficios /> */}
-         
+          <BenefitsSection />
         </section>
 
-        {/* Sección de Formulario (Aquí entrará el Estudiante 3) */}
+        {/* Sección de Formulario (Estudiante 3) */}
+        {/* El ID "contacto" permite que al hacer clic en el Header, la página baje hasta aquí */}
         <section id="contacto" className="seccion-contacto">
-          {/* <Formulario /> */}
-          
+          <Formulario />
         </section>
 
       </main>
 
-      {/* Footer (Aquí entrará el Estudiante 3) */}
-      <footer className="pie-pagina">
-        <div className="contenedor-footer">
-          <p>&copy; 2026 Soluciones IA. Todos los derechos reservados.</p>
-        </div>
-      </footer>
-      <BenefitsSection />
-      <Formulario />
+      {/* Footer (Estudiante 3) */}
       <Footer />
     </div>
   );
