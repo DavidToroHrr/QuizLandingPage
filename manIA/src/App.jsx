@@ -1,18 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
-import HeroComponent from './components/heroComponent'
+import Formulario from './components/Formulario';
+import Footer from './components/Footer';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div>
-      <HeroComponent />
+    <div className="App">
+      {/* Otros componentes como Hero o Cards irán aquí */}
+      <Formulario />
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
