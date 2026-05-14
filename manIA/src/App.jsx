@@ -1,3 +1,8 @@
+import Formulario from './components/Formulario';
+import Footer from './components/Footer';
+
+
+      
 import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -38,6 +43,9 @@ function App() {
           <p>&copy; 2026 Soluciones IA. Todos los derechos reservados.</p>
         </div>
       </footer>
+
+      <Formulario />
+      <Footer />
     </div>
   );
 }
